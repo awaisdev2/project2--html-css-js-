@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Animation CSS and JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sky h-[100vh] w-full bg-no-repeat absolute">
+            <div class="trees h-[100vh] w-full bg-cover absolute -top-36"></div>
+            <div class="track h-[60vh] w-[800vw] bg-repeat-x absolute top-[70vh]"></div>
+            <div class="car h-[100px] w-96 bg-cover bg-no-repeat absolute left-[444px] bottom-[30vh]">
+                <div class="wheel wheel1">
+                    <img class="w-[77px] relative top-11 left-11" src="car_wheel_left.png" alt="">
+                </div>
+                <div class="wheel wheel2">
+                    <img class="w-[77px] relative -top-10 left-60"  src="car_wheel_right.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
